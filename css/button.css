@@ -1,7 +1,7 @@
 .hvr-bounce-to-top {
   display: inline-block;
   color:white;
-  background: #2c3e50;
+  background: #00b3b3;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -36,7 +36,7 @@
   transition-timing-function: ease-out;
 }
 .hvr-bounce-to-top:hover, .hvr-bounce-to-top:focus, .hvr-bounce-to-top:active {
-  color: #2c3e50;
+  color: #00b3b3;
 }
 .hvr-bounce-to-top:hover:before, .hvr-bounce-to-top:focus:before, .hvr-bounce-to-top:active:before {
   -webkit-transform: scaleY(1);
