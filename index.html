@@ -38,8 +38,8 @@
     }
 
     .btn {
-      width: 100px;
-      height: 47px;
+      width: 90px;
+      height: 46px;
       font-size: 14px;
       font-weight: bold;
       outline: 0;
@@ -61,6 +61,11 @@
       font-size: 32px;
       color: white;
       font-weight: bold;
+    }
+
+    hr {
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
 
     a:hover {
@@ -110,52 +115,80 @@
     </div>
 
     <div class="row row-centered">
-      <div class="col-md-7 hidden-sm hidden-xs">
-        <p class="text-center" style="font-size:1.5em;">
+      <div class="col-sm-6 hidden-xs">
+        <p class="text-center" style="font-size:1.3em;">
           Join Charlie and Kady on their 5 and a half month, 2659 mi (4279 km) Pacific Crest Trail
           hike. Starting at Mexico, all the way up through California, Oregon and Washington to finish in Canada.
         </p>
 
-        <br>
+        <h3 class="text-center"><u>Posts:</u></h3>
 
-        <nav style="overflow:hidden;overflow-y:scroll;height:550px;background-color:white;border: 2px solid #2c3e50;">
-          <a href="posts/allPackedUp.html" class="bloglink" onmouseenter="mapInput(199, 693, 0, 0)">All Packed Up<small style="float:right;">30/03/2016</small></a>
-          <br>
-          <a href="posts/listingIsGoodForTheSoul.html" class="bloglink" onmouseenter="mapInput(199, 693, 0, 0)">Listing Is Good For The Soul<small style="float:right;">25/03/2016</small></a>
-          <br>
-          <a href="posts/itchyFeet.html" class="bloglink" onmouseenter="mapInput(199, 693, 0, 0)">Itchy Feet<small style="float:right;">16/03/2016</small></a>
-          <br>
-          <!-- <a href="posts/examplePost.html" onmouseenter="mapInput(188, 662, 345,34)" onmouseleave="mapInput(0,0,0,0)" class="bloglink">Example Blog Post<small style="float:right;">01/01/1991</small></a>
-          <br>
-          <a href="posts/emptyPost.html" onmouseenter="mapInput(206, 618, 567,99)" onmouseleave="mapInput(0,0,0,0)" class="bloglink">Empty Blog Post<small style="float:right;">01/01/1991</small></a>
-          <br>
-          <a href="https://www.github.com" class="bloglink" onmouseenter="mapInput(200, 600, 10, 23)" onmouseleave="mapInput(0,0,0,0)">Blog Post Example<small style="float:right;">01/01/1991</small></a>
-          <br> -->
+        <nav style="overflow:hidden;overflow-y:scroll;height:550px;background-color:white;">
+          <!-- <a href="posts/wildernessProgramming.html" class="bloglink" onmouseenter="mapInput(199, 693, 0, 0)">
+            <small>02/04/2016</small>
+            <br>
+            Charlie: Wilderness Programming
+          </a>
+          <hr> -->
+          <a href="posts/allPackedUp.html" class="bloglink" onmouseenter="mapInput(199, 693, 0, 0)">
+            <small>30/03/2016</small>
+            <br>
+            Kady: All Packed Up
+          </a>
+          <hr>
+          <a href="posts/listingIsGoodForTheSoul.html" class="bloglink" onmouseenter="mapInput(199, 693, 0, 0)">
+            <small>25/03/2016</small>
+            <br>
+            Kady: Listing Is Good For The Soul
+          </a>
+          <hr>
+          <a href="posts/itchyFeet.html" class="bloglink" onmouseenter="mapInput(199, 693, 0, 0)">
+            <small>16/03/2016</small>
+            <br>
+            Kady: Itchy Feet
+          </a>
         </nav>
       </div>
 
-      <div class="col-sm-12 col-xs-12 hidden-md hidden-lg">
+      <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
         <p class="text-center" style="font-weight: bold;">
           Join Charlie and Kady on their 5 and a half month, 2659 mi (4279 km) Pacific Crest Trail
           hike. Starting at Mexico, all the way up through California, Oregon and Washington to finish in Canada.
         </p>
         <br>
 
-        <a href="posts/allPackedUp.html" class="bloglink">All Packed Up<small style="float:right;">30/03/2016</small></a>
+        <!-- <a href="posts/wildernessProgramming.html" class="bloglink" onmouseenter="mapInput(199, 693, 0, 0)">
+          <small>02/04/2016</small>
+          <br>
+          Charlie: Wilderness Programming
+        </a>
+        <hr> -->
+        <a href="posts/allPackedUp.html" class="bloglink" onmouseenter="mapInput(199, 693, 0, 0)">
+          <small>30/03/2016</small>
+          <br>
+          Kady: All Packed Up
+        </a>
+        <hr>
+        <a href="posts/listingIsGoodForTheSoul.html" class="bloglink" onmouseenter="mapInput(199, 693, 0, 0)">
+          <small>25/03/2016</small>
+          <br>
+          Kady: Listing Is Good For The Soul
+        </a>
+        <hr>
+        <a href="posts/itchyFeet.html" class="bloglink" onmouseenter="mapInput(199, 693, 0, 0)">
+          <small>16/03/2016</small>
+          <br>
+          Kady: Itchy Feet
+        </a>
+
         <br>
-        <a href="posts/listingIsGoodForTheSoul.html" class="bloglink">Listing Is Good For The Soul<small style="float:right;">25/03/2016</small></a>
-        <br>
-        <a href="posts/itchyFeet.html" class="bloglink">Itchy Feet<small style="float:right;">16/03/2016</small></a>
         <br>
 
       </div>
 
-      <div class="col-md-5 hidden-sm hidden-xs">
-        <!-- <div class="col-md-7 hidden-sm hidden-xs" style="background-color:red;"> -->
-        <!-- <img class="center-block" alt="140x140" src="pct.gif" height="700px" style="margin-bottom:20px;"> -->
-        <canvas id="myCanvas" width="350" height="700">
+      <div class="col-sm-6 hidden-xs">
+        <canvas id="myCanvas" width="350" height="700" style="padding:0;margin:auto;display:block;">
         Your browser does not support HTML5 canvas, no interactive map for you!</canvas>
-        <!-- <img data-src="holder.js/140x140" class="img-rounded center-block img-responsive" alt="140x140" src="pct_overview.jpg"> -->
       </div>
     </div>
   </div>
@@ -240,9 +273,6 @@
   </footer>
 
   <script src="http://178.62.100.84:3000/walksiteIndex/count.js"></script>
-  <!-- JavaScript (not needed right now)-->
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script> -->
 
 </body>
 
